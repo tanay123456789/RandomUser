@@ -2,7 +2,7 @@ import React from "react"
 import {Card,CardBody,CardTitle,CardText} from "reactstrap"
 import {FaEnvelope,FaMapMarkedAlt,Faphone} from "react-icons/fa"
 
-const Card=({details})=>{
+const MyCard=({details})=>{
     return(
         <Card>
             <CardBody className="text-center">

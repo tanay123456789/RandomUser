@@ -24,14 +24,14 @@ function App() {
   },[]);
   
   return (
-    <COntainer fluid className="p-4 bg-primary App">
+    <Container fluid className="p-4 bg-primary App">
       <Row>
         <Col md={4} className="offset-md-4 mt-4">
         <MyCard details={details}/>
 
         </Col>
       </Row>
-    </COntainer>
+    </Container>
     
   );
 }
