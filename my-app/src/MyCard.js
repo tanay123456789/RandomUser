@@ -11,8 +11,8 @@ const MyCard=({details})=>{
                 src={details.picture?.large}/>
                 <CardTitle className="text-primary">
                     <h1><span className="pr-4">{details.name?.title}</span>
-                    <span>{details.name?.first}</span>
-                    <span>{details.name?.last}</span>
+                    <h1><span>{details.name?.first}</span>
+                    <span>{details.name?.last}</span></h1>
 
 
 
