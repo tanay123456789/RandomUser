@@ -18,6 +18,10 @@ const MyCard=({details})=>{
 
                     </h1>
                 </CardTitle>
+                <CardText>
+                    <FaMapMarkedAlt/>
+                    {details.location?.city}
+                </CardText>
             </CardBody>
         </Card>
     )
